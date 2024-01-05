@@ -1,0 +1,13 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [ "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",],
+  theme: {
+    extend: {colors: {
+      customOrange: '#F16422',
+      customBlue:'#254980'
+    },},
+  },
+  plugins: [],
+}
+
