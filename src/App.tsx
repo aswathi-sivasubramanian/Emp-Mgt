@@ -3,16 +3,14 @@ import './App.css'
 // import MyButton from '../src/uicomponents/Button';
 // import SearchBar from '../src/uicomponents/SearchBar';
 // import Skeleton from '../src/components/Skeleton'
-import Navbar from '../src/components/Navbar';
-import Sidebar from '../src/components/Sidebar';
+
+import Skeleton from './components/SkeletonPage';
 function App() {
 
   return (
     <>
+    <Skeleton/>
 
-<Navbar/>
-<Sidebar/>
-     
     </>
   )
 }
