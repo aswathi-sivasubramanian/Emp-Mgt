@@ -2,13 +2,18 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Submenu from "./Submenu";
 import { Outlet } from 'react-router-dom';
-const SkeletonPage: React.FC=()=>{
+
+const SkeletonPage: React.FC<{type:number}>=({type})=>{
     return(<><div className='fixed' >
-    <Navbar/>
+      
+    <Navbar />
+ 
     <div className='flex'>
     <Sidebar/>
-    <div>
-    <Submenu/>
+    <div >
+        
+    <Submenu type={type}/>
+   
     <Outlet/>
     </div>
     </div>

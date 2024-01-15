@@ -1,4 +1,5 @@
+
 const Goal:React.FC =() =>{
-    return(<>Goal</>)
+    return(<>Goals</>)
 }
 export default Goal;
