@@ -4,12 +4,12 @@ import './App.css'
 // import SearchBar from '../src/uicomponents/SearchBar';
 // import Skeleton from '../src/components/Skeleton'
 
-import Skeleton from './components/SkeletonPage';
+// import Skeleton from './components/SkeletonPage';
 function App() {
 
   return (
     <>
-    <Skeleton/>
+   
 
     </>
   )
