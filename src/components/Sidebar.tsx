@@ -23,7 +23,7 @@ interface LinkProps {
 ];
   
 const Sidebar:React.FC=()=>{
-    return(<div ><div className="  "><nav className="bg-customBlue flex-col w-36  overflow-y-auto h-screen">
+    return(<div ><div className="  "><nav className="bg-customBlue flex-col w-36  overflow-y-auto h-screen mt-0.5">
      <img src={Logo} className="w-20 h-20 mt-6 ml-6 mb-6"/>
     {navigationLinks.map((link) => (
       <div key={link.title} className="mt-2 ml-4 ">
